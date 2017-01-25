@@ -1,0 +1,290 @@
+---
+title       : "Navigating New Media Environments with Data Science"
+subtitle    : "An ongoing program of research"
+author      : "Michael W. Kearney"
+job         : "University of Kansas"
+framework   : "html5slides"  # {io2012, html5slides, shower, dzslides, ...}
+revealjs    : {theme: "Default", transition: cube}
+highlighter : "highlight.js" # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      #
+widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
+css         : "css/html5slides.css"
+mode        : selfcontained # {standalone, draft}
+url         : {lib: "."}
+knit        : slidify::knit2slides
+--- .transition
+
+<h2></h2>
+<br>
+
+<h1 class="mytitle">Exploring New<br>Media Environments<br>with Data
+Science</h1>
+
+<p class="titleinfo">Michael W. Kearney, PhD Candidate<br>
+Center for Research Methods & Data Analysis<br>
+Department of Communication Studies<br>
+University of Kansas</p>
+
+---
+
+## My research program
+
+&nbsp;
+
+- Relationship between *new* media and *news* media
+&nbsp;
+
+- Civic engagement and political polarization
+&nbsp;
+
+- Quantitative research methods and data science
+&nbsp;
+
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">Where I've been</h1>
+
+---
+
+## Publications
+- Political use of social media
+	- Latent variable analysis of political interactions on Facebook
+      <span class="cite">(*Communication Research Reports*, 2017)</span>
+	- Field experiment examining effect of following candidates [on
+      Facebook] on civic engagement <span class="cite">(co-author, *Computers in
+      Human Behavior*, 2015)</span>
+- Quantitative methods in communication research
+	- Reviews of categorical <span class="cite"> (*Sage Encylopedia*)
+	  </span>, longitudinal <span class="cite">(*Sage Encylopedia*)
+	  </span>, and new media-leveraging methods <span
+      class="cite">(*Handbook of Political Advertising*, 2016)</span>
+
+---
+
+## Partisan media
+- Media fragmentation poses several problems
+	- User-level agenda setting lacks regulation <span
+      class="cite">(Garrett, 2013)</span> e.g., fake news <span
+      class="cite">(Stanford History Education Group, 2016)</span>,
+      and new currency is social validation <span
+      class="cite">(Messing & Westwood, 2012)</span>
+	- Digital partisans in social media echo chambers <span
+      class="cite">(Barbera, et al., 2015; Himelboim, Smith, &
+      Schneiderman, 2013)</span>
+- Concerns compounded by methodological problems
+	- Sampling, reliability, and elusive promise of "big data" <span
+      class="cite">(Garrett, 2013)</span>
+
+
+---
+
+## Partisan networks
+- We know a lot about exposure to partisan news
+    - e.g., theories of motivated reasoning and cognitive dissonance
+      <span class="cite">(Prior, 2013)</span>
+- We know relatively little about partisan [user] networks
+	- We lack necessary tools to examine networks and interactions on
+      a large scale <span class="cite">(Garrett, 2013)</span>
+	- This was my motivation for writing *rtweet* an R package for
+      collecting Twitter data<span class="cite"> (Kearney, 2016)</span>
+
+---
+
+## &nbsp;
+
+![](images/rtweetpkg.png)
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">Where I am</h1>
+
+---
+
+## Selective exposure on Twitter
+- Asymmetrical connections make Twitter unique
+  - Estimate political ideology using user networks <span
+    class="cite">(Barbera, 2015)
+- My dissertation
+  - I tracked networks from a random sample of Twitter users during
+    the 2016 election
+
+---
+
+## Hypotheses
+1. User networks on Twitter will cluster according to partisanship
+   - Partisan network homogeneity
+2. Network polarization will increase with proximity to election
+   - *Change* in partisan network homogeneity
+
+---
+
+## Method
+
+1. Identified every follower from 12 source, or origin, accounts
+   representing 3 groups
+2. Randomly sampled 10,000 followers from each group
+3. Filtered out inactive/bot-like users for final sample of 3,000
+&nbsp;
+   - Democrat partisans (n = 1,000)
+   - Republican partisans (n = 1,000)
+   - Entertainment non-partisans (n = 1,000)
+
+--- .fullflowchart
+
+## &nbsp;
+
+<img src="images/fc2000.png" alt="flowchart"/>
+
+--- .flowchart
+
+## &nbsp;
+
+![](images/fc2000top.png)
+
+--- .flowchart
+
+## &nbsp;
+
+![](images/fc2000mid.png)
+
+--- .flowchart
+
+## &nbsp;
+
+![](images/fc2000bot.png)
+
+--- .fullflowchart
+
+## &nbsp;
+
+<img src="images/fc2000.png" alt="flowchart"/>
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">Results</h1>
+
+---
+
+## Partisan clusters (H1)
+- If partisanship organizes networks, visual evidence
+  in connections should be clear
+- For reference, I simulated data using two sets of parameters (null
+  vs alternative model)
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">H1 results</h1>
+
+--- .results
+
+## Simulated null model
+
+![](images/partisancluster.sim.null.png)
+
+--- .results
+
+## Simulated alternate model
+
+![](images/partisancluster.sim.model.png)
+
+--- .results
+
+## Real data
+
+![](images/partisancluster.results.png)
+
+--- .results
+
+## Source accounts
+
+![](images/sourceaccounts.png)
+
+--- .results
+
+## Clustered elites
+
+![](images/sourceaccounts.verify.png)
+
+---
+
+## Change in polarization (H2)
+- If partisan politics amplifies partisanship, then
+  network polarization should increase as the  election gets closer
+- My dissertation compares *within*-user change *between*
+  partisan and non-partisan groups over time using multilevel modeling
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">H2 results</h1>
+
+--- .results
+
+## Network polarization
+
+![](images/np.unweighted.png)
+
+--- .results
+
+## Network polarization (weighted)
+
+![](images/np.weighted.png)
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">Where I'm going</h1>
+
+---
+
+## Underlying research question
+- How do people navigate political information in new media
+  environments?
+- In what ways do digital networks operate as mechanisms of political
+  persuasion?
+- What do patterns in social media behaviors of tell us about
+  public opinion?
+
+---
+
+## Dissertation, Twitter, and *rtweet*
+- rtweet: Collecting Twitter data <span class="cite">(R Journal;
+  ICA)</span>
+- Change in network polarization on Twitter <span
+  class="cite">(Journal of Communication)</span>
+- Topic salience in Presidential debates <span class="cite">(Political
+  Analysis)</span>
+- Circulation of NYTimes stories about sanctions <span
+  class="cite">(Political Communication)</span>
+
+
+---
+
+## Other projects
+- Combining real-time Facebook API data with survey data
+- Combining social media or tracking data with experimental data to
+  examine framing, social validation, and media exposure
+- Working with databases, parsing text, analyzing multiple models, and
+  leveraging other programming languages to make things go faster and
+  do more.
+
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">That's it \o/<br><br>Thanks!</h1>
+
+
+<link rel="stylesheet" href="css/html5slides.css">
