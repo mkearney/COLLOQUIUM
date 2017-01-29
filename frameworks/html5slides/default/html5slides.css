@@ -1,52 +1,72 @@
-<style>
+article.past, article.next {
+    background: #e0e0e0;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+h2.past, h2.next, h3.past, h3.next {
+    color: #003366;
+}
 .slides > article {
     font-family: "Proxima Nova", Roboto, Helvetica, sans;
     color: #333333;
 }
-ul > li {
-    list-style-image: url("images/laptop.png");
+.slides > article.current {
+    background-image: url(images/logo2.png);
+    background-repeat: no-repeat;
+    background-position: 99.5% .5%;
 }
 ul, ol {
     margin-left: 5%;
 }
 li {
+    list-style: none;
     color: #333333;
     padding: 10px 0;
     line-height: 36px;
 }
+li:before {
+    content:"*";
+    font-size: 30px;
+    vertical-align: middle;
+    margin-left: -.75em;
+    margin-right: .75em;
+    margin-top: .2em;
+}
 ul > li > ul > li {
     color: #444444;
-    list-style-image: url("images/bullet.png");
 }
 h1, h2, h3, h4 {
     // color: #1a9c9a;
+    color: #0051BA;
     font-weight: bold;
-    color: #003380;
-    font-family: "Proxima Nova", Roboto, Helvetica, sans;
+    letter-spacing: -2px;
+    font-family: "Avenir", Roboto, Helvetica, sans;
 }
 pi, li {
-    font-family: "Proxima Nova", Roboto, Helvetica, sans;
+    font-family: "Proxima Nova", "Helvetica Neue", sans;
+    letter-spacing: -.1px;
 }
 h3 {
     font-size: 46px;
 }
 h1.mytitle {
-    font-family: "Proxima Nova", Roboto, Helvetica, sans;
     color: #ffffff;
     vertical-align: middle;
     line-height: 76px;
     text-align: center;
-    font-size: 66px;
+    font-size: 48px;
 }
 h1.mytransition {
-    font-family: "Proxima Nova", Roboto, Helvetica, sans;
     text-align: center;
+    line-height: 1.5;
     margin-top: 25%;
     vertical-align: middle;
     color: #ffffff;
 }
 p.titleinfo {
-    font-family: "Proxima Nova", Roboto, Helvetica, sans;
     margin-top: 10%;
     font-size: 26px;
     color: #f0f0f0;
@@ -55,7 +75,17 @@ p.titleinfo {
 }
 article.transition.current {
     //background: #1a9c9a;
-    background: #aa3333;
+    background: #0051BA;
+}
+article.dark.current {
+    //background: #1a9c9a;
+    background: #101316;
+}
+.dark img {
+    height: auto;
+    width: 125%;
+    margin-left: -12.5%;
+    max-width: 125%;
 }
 span.cite {
     font-size: 24px;
@@ -78,4 +108,3 @@ span.cite {
     height: auto;
     width: 100%;
 }
-</style>

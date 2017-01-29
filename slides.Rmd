@@ -8,44 +8,80 @@ revealjs    : {theme: "Default", transition: cube}
 highlighter : "highlight.js" # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      #
 widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
-css         : "css/html5slides.css"
 mode        : selfcontained # {standalone, draft}
 url         : {lib: "."}
 knit        : slidify::knit2slides
 --- .transition
 
 <h2></h2>
+
+<link rel="stylesheet" href="./frameworks/html5slides/default/html5slides.css">
+
+<br>
 <br>
 
-<h1 class="mytitle">Exploring New<br>Media Environments<br>with Data
-Science</h1>
+<h1 class="mytitle">Data Science and<br>"Big Data" in<br>Communication Research</h1>
 
-<p class="titleinfo">Michael W. Kearney, PhD Candidate<br>
-Center for Research Methods & Data Analysis<br>
+<p class="titleinfo">Michael W. Kearney<br>
 Department of Communication Studies<br>
+Center for Research Methods & Data Analysis<br>
 University of Kansas</p>
 
 ---
 
-## My research program
+## Overview
+- Tradition of quantitative communication research
+- Replication crisis
+- New digital sources of "big data"
+- Data science
 
-&nbsp;
+--- .transition
 
-- Relationship between *new* media and *news* media
-&nbsp;
+## &nbsp;
 
-- Civic engagement and political polarization
-&nbsp;
+<h1 class="mytransition">Data science is a thing.</h1>
 
-- Quantitative research methods and data science
-&nbsp;
+---
+
+## Defining data science
+- Data science is a hybrid of quantitative statistics and computer science.
 
 
 --- .transition
 
 ## &nbsp;
 
-<h1 class="mytransition">Where I've been</h1>
+<h1 class="mytransition">Communication research could benefit from
+data science.</h1>
+
+---
+
+## Quantitative Research
+
+<p align="center">
+<img src="images/datascience_flowchart1.png" alt="flowchart1">
+</p>
+
+---
+
+## Data Science Workflow
+
+<p align="center">
+<img src="images/datascience_flowchart2.png" alt="flowchart1">
+</p>
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">Data science will influence future
+communication research.</h1>
+
+--- .dark
+
+## &nbsp;
+
+![](images/binom.gif)
 
 ---
 
@@ -286,5 +322,3 @@ University of Kansas</p>
 
 <h1 class="mytransition">That's it \o/<br><br>Thanks!</h1>
 
-
-<link rel="stylesheet" href="css/html5slides.css">
