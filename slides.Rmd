@@ -19,8 +19,9 @@ knit        : slidify::knit2slides
 
 <br>
 <br>
+<br>
 
-<h1 class="mytitle">Data Science and<br>"Big Data" in<br>Communication Research</h1>
+<h1 class="mytitle">Data Science and "Big Data" in<br>Communication Research</h1>
 
 <p class="titleinfo">Michael W. Kearney<br>
 Department of Communication Studies<br>
@@ -77,26 +78,29 @@ data science.</h1>
 <h1 class="mytransition">Data science will influence future
 communication research.</h1>
 
+---
+
+## Samples
+
+- Convenience samples of students tend to be homogenous and
+  limited in size
+- Digital sources are not restricted by geography and can be massive
+- In a few hours, one could, for example, stream a million tweets
+  from the U.S.
+
 --- .dark
 
 ## &nbsp;
 
-![](images/binom.gif)
+![](images/usatweets_color.gif)
 
----
+--- .dark3
 
-## Publications
-- Political use of social media
-	- Latent variable analysis of political interactions on Facebook
-      <span class="cite">(*Communication Research Reports*, 2017)</span>
-	- Field experiment examining effect of following candidates [on
-      Facebook] on civic engagement <span class="cite">(co-author, *Computers in
-      Human Behavior*, 2015)</span>
-- Quantitative methods in communication research
-	- Reviews of categorical <span class="cite"> (*Sage Encylopedia*)
-	  </span>, longitudinal <span class="cite">(*Sage Encylopedia*)
-	  </span>, and new media-leveraging methods <span
-      class="cite">(*Handbook of Political Advertising*, 2016)</span>
+## &nbsp;
+
+![](images/worlddensity.png)
+
+![](images/popdensity.jpg)
 
 ---
 

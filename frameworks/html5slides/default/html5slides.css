@@ -79,13 +79,37 @@ article.transition.current {
 }
 article.dark.current {
     //background: #1a9c9a;
-    background: #101316;
+    background: #eaeaea;
+}
+article.dark2.current {
+    //background: #1a9c9a;
+    background: #eaeaea;
 }
 .dark img {
     height: auto;
     width: 125%;
     margin-left: -12.5%;
     max-width: 125%;
+}
+.dark2 h2 {
+    padding-bottom: 10px;
+}
+.dark2 img {
+    height: auto;
+    width: 110%;
+    margin-left: -5%;
+    max-width: 110%;
+}
+.dark3 h3 {
+    line-height: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.dark3 img {
+    height: auto;
+    width: 70%;
+    margin-top: 0;
+    margin-left: 15%;
 }
 span.cite {
     font-size: 24px;
