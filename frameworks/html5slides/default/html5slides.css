@@ -24,7 +24,7 @@ ul, ol {
 li {
     list-style: none;
     color: #333333;
-    padding: 10px 0;
+    padding: 15px 0;
     line-height: 36px;
 }
 li:before {
@@ -51,6 +51,8 @@ pi, li {
 }
 h3 {
     font-size: 46px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 h1.mytitle {
     color: #ffffff;
@@ -62,9 +64,9 @@ h1.mytitle {
 h1.mytransition {
     text-align: center;
     line-height: 1.5;
-    margin-top: 25%;
     vertical-align: middle;
     color: #ffffff;
+    padding: 20% 0;
 }
 p.titleinfo {
     margin-top: 10%;
@@ -86,12 +88,12 @@ article.dark2.current {
     background: #eaeaea;
 }
 .dark img {
+    max-width: 100%;
+    margin-left: 0%;
+    margin-top: -2.5%;
     height: auto;
-    width: 125%;
-    margin-left: -12.5%;
-    max-width: 125%;
 }
-.dark2 h2 {
+.dark2 h2, .dark2 h3 {
     padding-bottom: 10px;
 }
 .dark2 img {
@@ -126,6 +128,12 @@ span.cite {
     margin-left: 5%;
     width: 90%;
     max-height: 110%;
+    height: auto;
+}
+.sentanalysis img {
+    max-width: 100%;
+    margin-left: 0%;
+    margin-top: -2.5%;
     height: auto;
 }
 .results img {

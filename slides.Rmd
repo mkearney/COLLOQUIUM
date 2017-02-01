@@ -30,11 +30,60 @@ University of Kansas</p>
 
 ---
 
-## Overview
-- Tradition of quantitative communication research
-- Replication crisis
-- New digital sources of "big data"
-- Data science
+## Communication Research
+- Current issues in quantitative research
+  - Limitations
+  - Future challenges
+- Technological advances in quantitative research
+  - Digital sources of [big] data
+  - Data science
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">I get a little scared every time<br>Josh
+Morgan speaks.</h1>
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">Quantitative communication research is not perfect.</h1>
+
+---
+
+## Issues in COMS research
+
+- Generalizability of student samples
+- Attrition in panel studies
+- Real-time/tracking data is expensive
+- Measurement error in self-report/questionnaire data
+
+---
+
+## New challenges
+
+- Fragmented media audiences and probability sampling
+- Respondent fatigue/information overload
+- Increasingly salient privacy concerns
+
+--- .transition
+
+## &nbsp;
+
+<h1 class="mytransition">"The replication crisis" will inevitably
+include communication studies.</h1>
+
+---
+
+## Replication crisis
+- Recent term used to describe the inability to replicate research
+  findings.
+- Originates in psychology research, but applies to all social science
+  research.
+
+- Psychology
 
 --- .transition
 
@@ -92,7 +141,7 @@ communication research.</h1>
 
 ## &nbsp;
 
-![](images/usatweets_color.gif)
+![](images/usatweets_3color.gif)
 
 --- .dark3
 
@@ -102,18 +151,27 @@ communication research.</h1>
 
 ![](images/popdensity.jpg)
 
+--- .sentanalysis
+
+## &nbsp;
+
+![](images/sentanalysisprimary.png)
+
+--- .sentanalysis
+
+## &nbsp;
+
+![](images/intnpsurvey.png)
+
 ---
 
-## Partisan media
+## New media environment
 - Media fragmentation poses several problems
 	- User-level agenda setting lacks regulation <span
-      class="cite">(Garrett, 2013)</span> e.g., fake news <span
+      class="cite">(Garrett, 2013)</span> e.g., "fake news" <span
       class="cite">(Stanford History Education Group, 2016)</span>,
       and new currency is social validation <span
       class="cite">(Messing & Westwood, 2012)</span>
-	- Digital partisans in social media echo chambers <span
-      class="cite">(Barbera, et al., 2015; Himelboim, Smith, &
-      Schneiderman, 2013)</span>
 - Concerns compounded by methodological problems
 	- Sampling, reliability, and elusive promise of "big data" <span
       class="cite">(Garrett, 2013)</span>
@@ -326,3 +384,68 @@ communication research.</h1>
 
 <h1 class="mytransition">That's it \o/<br><br>Thanks!</h1>
 
+---
+
+## Defs
+
+Large and unstructured data impose challenges not historically
+addressed by statistics (Vasant, 2013)
+
+Machine learning is center to data science (Vasant, 2013)
+
+---
+
+## stats
+
+- Statistics, more so than computer science, is condusive to knowledge
+  discovery (Vasant, 2013)
+	- Computer science provides tools for summarizing and subsetting
+      "databases"
+	- Statistics provides tools for testing and creating theories
+      with "data frames"
+
+---
+
+## Two extremes
+
+**Computer science** examines whether a certain pattern can be found
+  in data.
+  - *e.g., hey Alexa, what is the capital of Chile?*
+
+**Statistics** examines whether data can be found in a certain
+  pattern.
+  - *e.g., lack of sleep correlates with decreased cognitive
+    performance*
+
+---
+
+## Predictions
+
+Machine learning models are judged by accuracy of their predictions
+
+Predictive models so not attempt to *explain* what's happening
+	- Impossible to know whether variables in model actually reflect
+      some underlying construct (Vasant, 2013)
+
+Data science is increasingly concerned with making predictions
+
+---
+
+## Data science
+
+- Data science is "a set of fundamental principles that  support  and
+  guide  the  principled  extraction  of  information  and  knowledge
+  from  data" (Provost & Fawcett, 2013, p. 52)
+
+- Big data refers to "datasets  that  are  too  large  for
+  traditional data-processing systems and that therefore require new
+  echnologies" (Provost & Fawcett, 2013, p. 54)
+
+---
+
+## References
+
+Vasant, D. (2013). Data science and prediction. *Communications
+of the ACM, 56*, 64-73.
+
+Provost, F., & Fawcett, T. (2013). Data science and its relationship to big data and data-driven decision making. *Big Data, 1*, 51-59.

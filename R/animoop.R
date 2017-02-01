@@ -9,8 +9,8 @@ animoop <- function(x, n = 50,
                     border = "#11111a",
                     land = "#000000",
                     ocean = "#11111a",
-                    w = 10,
-                    h = 6,
+                    w = 6.5,
+                    h = 4.25,
                     ...) {
     require(maps)
     ##data(worldMapEnv)
@@ -72,7 +72,8 @@ mypoints <- function(x, rng,
            cex = cex, pch = pch, ...)
 }
 
-geomap <- function(x, rng, cols, alpha, cex, ...) {
+geomap <- function(x, rng, cols, alpha,
+                   cex, n = 1, ...) {
     op <- par(no.readonly = TRUE)
     par(mar = c(0, 0, 0, 0))
     on.exit(par(op))
