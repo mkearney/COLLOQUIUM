@@ -1,12 +1,6 @@
 ---
-title       : "Navigating New Media Environments with Data Science"
-subtitle    : "An ongoing program of research"
-author      : "Michael W. Kearney"
-job         : "University of Kansas"
 framework   : "html5slides"  # {io2012, html5slides, shower, dzslides, ...}
 revealjs    : {theme: "Default", transition: cube}
-highlighter : "highlight.js" # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      #
 widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 url         : {lib: "."}
