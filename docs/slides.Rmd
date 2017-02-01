@@ -152,11 +152,23 @@ communication research.</h1>
 
 ![](images/sentanalysisprimary.png)
 
---- .sentanalysis
+--- .netanalysis
 
 ## &nbsp;
 
-![](images/networkanalysis.png)
+![](images/polrnetwork.png)
+
+--- .netanalysis
+
+## &nbsp;
+
+![](images/polrnetworkT1.png)
+
+--- .netanalysis
+
+## &nbsp;
+
+![](images/polrnetworkT2.png)
 
 --- .sentanalysis
 
@@ -218,107 +230,6 @@ communication research.</h1>
 - My dissertation
   - I tracked networks from a random sample of Twitter users during
     the 2016 election
-
----
-
-## Hypotheses
-1. User networks on Twitter will cluster according to partisanship
-   - Partisan network homogeneity
-2. Network polarization will increase with proximity to election
-   - *Change* in partisan network homogeneity
-
----
-
-## Method
-
-1. Identified every follower from 12 source, or origin, accounts
-   representing 3 groups
-2. Randomly sampled 10,000 followers from each group
-3. Filtered out inactive/bot-like users for final sample of 3,000
-&nbsp;
-   - Democrat partisans (n = 1,000)
-   - Republican partisans (n = 1,000)
-   - Entertainment non-partisans (n = 1,000)
-
---- .fullflowchart
-
-## &nbsp;
-
-<img src="images/fc2000.png" alt="flowchart"/>
-
---- .flowchart
-
-## &nbsp;
-
-![](images/fc2000top.png)
-
---- .flowchart
-
-## &nbsp;
-
-![](images/fc2000mid.png)
-
---- .flowchart
-
-## &nbsp;
-
-![](images/fc2000bot.png)
-
---- .fullflowchart
-
-## &nbsp;
-
-<img src="images/fc2000.png" alt="flowchart"/>
-
---- .transition
-
-## &nbsp;
-
-<h1 class="mytransition">Results</h1>
-
----
-
-## Partisan clusters (H1)
-- If partisanship organizes networks, visual evidence
-  in connections should be clear
-- For reference, I simulated data using two sets of parameters (null
-  vs alternative model)
-
---- .transition
-
-## &nbsp;
-
-<h1 class="mytransition">H1 results</h1>
-
---- .results
-
-## Simulated null model
-
-![](images/partisancluster.sim.null.png)
-
---- .results
-
-## Simulated alternate model
-
-![](images/partisancluster.sim.model.png)
-
---- .results
-
-## Real data
-
-![](images/partisancluster.results.png)
-
---- .results
-
-## Source accounts
-
-![](images/sourceaccounts.png)
-
---- .results
-
-## Clustered elites
-
-![](images/sourceaccounts.verify.png)
 
 ---
 

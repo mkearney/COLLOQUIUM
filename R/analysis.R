@@ -26,7 +26,6 @@ d <- readr::read_rds("/Users/mwk/mizzou/wrangled/sample.rds")
 d <- d[, c(1, 2, 3, 4, 5, 8:10, 13, 16)]
 nope <- vapply(d$friends, length, double(1)) < 2
 d <- d[!nope, ]
-head(d)
 d <- subset(d, date == as.Date("2016-06-13") &
             group %in% c("d", "r"))
 
@@ -35,16 +34,21 @@ e <- readr::read_rds("/Users/mwk/mizzou/wrangled/elites.tbl.v2.rds")
 e <- subset(e, date == as.Date("2016-06-13") &
             g %in% c("d", "r"))
 e <- subset(e, int > 50)
-.getmatrow <- function(x) {
-    as.double(e$user_id %in% x)
+.getmatrow <- function(x, usr, group) {
+    x <- e$user_id[e$user_id %in% x]
+    matrix(
+        c(rep(usr, length(x)),
+          x,
+          rep(group, length(x))),
+        ncol = 3)
 }
-getmatrow <- function(x)
-    unlist(lapply(x, .getmatrow), use.names = FALSE) %>%
-        matrix(length(x), length(e$user_id),
-               byrow = TRUE)
-x
-x <- getmatrow(d$friends[1:2000])
-x[, 1:10]
+getmatrow <- function(x, usr, group) {
+    x <- mapply(.getmatrow, x, usr, group)
+    do.call("rbind", x)
+}
+
+x <- getmatrow(d$friends[1:2000], d$user_id[1:2000], d$group[1:2000])
+
 dems <- e$user_id[e$group == "d"]
 gops <- e$user_id[e$group == "r"]
 
