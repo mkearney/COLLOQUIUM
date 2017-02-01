@@ -34,14 +34,15 @@ dmatch <- data.frame(
     'userid' = c(d$user_id, e$user_id),
     'group' = c(d$group, e$g),
     stringsAsFactors = FALSE)
-dmatch$col <- "#1122ee"
-dmatch$col[dmatch$group == "r"] <- "#cc2222"
+dmatch$col <- "#1122ff"
+dmatch$col[dmatch$group == "r"] <- "#dd2222"
 
 cols <- V(g)$name %>%
        match(dmatch$userid) %>%
        dmatch$col[.]
 png("docs/images/networkanalysis.png", 6, 4.25, "in", res = 127.5)
-par(mar = c(1,0,3,0), family = "Avenir Next Condensed", adj = .15)
+par(mar = c(1,0,2,0), family = "Avenir Next Condensed", adj = .15,
+    cex.main = 1.4)
 igraph_options(plot.layout=layout_nicely)
 plot(g, vertex.color = cols,
      main = "Network hubs cluster around partisanship",
@@ -51,7 +52,7 @@ plot(g, vertex.color = cols,
      edge.arrow.size = .05,
      edge.lty = 1,
      edge.label = NA,
-     vertex.size = 4, vertex.label = NA)
+     vertex.size = 5, vertex.label = NA)
 dev.off()
 ?par
 igraph_options(plot.layout=layout_nicely)
