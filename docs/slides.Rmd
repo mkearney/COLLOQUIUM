@@ -296,7 +296,7 @@ data science tools and methods.</h1>
 
 ## &nbsp;
 
-<h1 class="mytransition">Communication researchers has an obligation
+<h1 class="mytransition">Communication researchers have an obligation
 to use data science.</h1>
 
 ---
