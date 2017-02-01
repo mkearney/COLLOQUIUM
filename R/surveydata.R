@@ -19,7 +19,7 @@ sm$PARTY[sm$favD_1 - sm$favR_1 > 0 & !is.na(sm$favD_1)] <- "DEM"
 sm$polar <- as.numeric(sm$polar)
 ## plot
 
-png("images/intnpsurvey.png", 6, 4.25, "in", res = 127.5)
+png("docs/images/intnpsurvey.png", 6, 4.25, "in", res = 127.5)
 sm[!is.na(sm$PARTY), ] %>%
     ggplot2::ggplot(ggplot2::aes(
         x = INT, y = SMAGR, size = polar)) +
@@ -45,6 +45,6 @@ sm[!is.na(sm$PARTY), ] %>%
         text = ggplot2::element_text(family = "Avenir Next Condensed")) +
     ggplot2::labs(
         title = "Political interest and network polarization",
-        subtitle = "Self report data from a convenience sample of students in 2015",
+        subtitle = "Self report data from a convenience sample (N = 387) of students in 2015",
         x = "Political interest", y = "Network polarization")
 dev.off()

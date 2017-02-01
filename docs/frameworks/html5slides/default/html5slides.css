@@ -24,7 +24,8 @@ ul, ol {
 li {
     list-style: none;
     color: #333333;
-    padding: 15px 0;
+    padding-top: 20px;
+    padding-bottom: 0;
     line-height: 36px;
 }
 li:before {
@@ -36,7 +37,7 @@ li:before {
     margin-top: .2em;
 }
 ul > li > ul > li {
-    color: #444444;
+    color: #363636;
 }
 h1, h2, h3, h4 {
     // color: #1a9c9a;
@@ -114,8 +115,9 @@ article.dark2.current {
     margin-left: 15%;
 }
 span.cite {
-    font-size: 24px;
-    color: #777777;
+    font-size: 20px;
+    color: #e25050;
+    letter-spacing: -1px;
 }
 .flowchart img {
     height: auto;

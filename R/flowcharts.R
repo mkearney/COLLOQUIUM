@@ -1,5 +1,5 @@
 
-png("datascience_flowchart1.png", 7, 5, "in", res = 127.5)
+png("docs/images/datascience_flowchart1.png", 6, 4.25, "in", res = 127.5)
 fig.x <- c(-.85, -.85, -.10,  .85,  .85,  .85)
 fig.y <- c( .75,  .00,  .00,  .75,  .00, -.75)
 n <- length(fig.x)
@@ -26,7 +26,7 @@ text( .85, -.75, "Present", cex = cex)
 dev.off()
 
 
-png("datascience_flowchart2.png", 7, 5, "in", res = 127.5)
+png("docs/images/datascience_flowchart2.png", 6, 4.25, "in", res = 127.5)
 fig.x <- c(-.85, -.85, -.10,  .85,  .85,  .85)
 fig.y <- c( .75,  .00,  .00,  .75,  .00, -.75)
 n <- length(fig.x)

@@ -156,7 +156,19 @@ communication research.</h1>
 
 ## &nbsp;
 
+![](images/networkanalysis.png)
+
+--- .sentanalysis
+
+## &nbsp;
+
 ![](images/intnpsurvey.png)
+
+--- .sentanalysis
+
+## &nbsp;
+
+![](images/int2plr.png)
 
 ---
 
@@ -189,6 +201,7 @@ communication research.</h1>
 ## &nbsp;
 
 ![](images/rtweetpkg.png)
+
 
 --- .transition
 
@@ -337,46 +350,6 @@ communication research.</h1>
 
 ## &nbsp;
 
-<h1 class="mytransition">Where I'm going</h1>
-
----
-
-## Underlying research question
-- How do people navigate political information in new media
-  environments?
-- In what ways do digital networks operate as mechanisms of political
-  persuasion?
-- What do patterns in social media behaviors of tell us about
-  public opinion?
-
----
-
-## Dissertation, Twitter, and *rtweet*
-- rtweet: Collecting Twitter data <span class="cite">(R Journal;
-  ICA)</span>
-- Change in network polarization on Twitter <span
-  class="cite">(Journal of Communication)</span>
-- Topic salience in Presidential debates <span class="cite">(Political
-  Analysis)</span>
-- Circulation of NYTimes stories about sanctions <span
-  class="cite">(Political Communication)</span>
-
-
----
-
-## Other projects
-- Combining real-time Facebook API data with survey data
-- Combining social media or tracking data with experimental data to
-  examine framing, social validation, and media exposure
-- Working with databases, parsing text, analyzing multiple models, and
-  leveraging other programming languages to make things go faster and
-  do more.
-
-
---- .transition
-
-## &nbsp;
-
 <h1 class="mytransition">That's it \o/<br><br>Thanks!</h1>
 
 ---
@@ -384,16 +357,16 @@ communication research.</h1>
 ## Defs
 
 Large and unstructured data impose challenges not historically
-addressed by statistics (Vasant, 2013)
+addressed by statistics <span class="cite">(Vasant, 2013)</span>
 
-Machine learning is center to data science (Vasant, 2013)
+Machine learning is center to data science <span class="cite">(Vasant, 2013)</span>
 
 ---
 
 ## stats
 
 - Statistics, more so than computer science, is condusive to knowledge
-  discovery (Vasant, 2013)
+  discovery <span class="cite">(Vasant, 2013)</span>
 	- Computer science provides tools for summarizing and subsetting
       "databases"
 	- Statistics provides tools for testing and creating theories
@@ -420,7 +393,7 @@ Machine learning models are judged by accuracy of their predictions
 
 Predictive models so not attempt to *explain* what's happening
 	- Impossible to know whether variables in model actually reflect
-      some underlying construct (Vasant, 2013)
+      some underlying construct <span class="cite">(Vasant, 2013)</span>
 
 Data science is increasingly concerned with making predictions
 
@@ -430,11 +403,11 @@ Data science is increasingly concerned with making predictions
 
 - Data science is "a set of fundamental principles that  support  and
   guide  the  principled  extraction  of  information  and  knowledge
-  from  data" (Provost & Fawcett, 2013, p. 52)
+  from  data" <span class="cite">(Provost & Fawcett, 2013, p. 52)</span>
 
 - Big data refers to "datasets  that  are  too  large  for
   traditional data-processing systems and that therefore require new
-  echnologies" (Provost & Fawcett, 2013, p. 54)
+  echnologies" <span class="cite">(Provost & Fawcett, 2013, p. 54)</span>
 
 ---
 
