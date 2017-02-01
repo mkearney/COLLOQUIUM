@@ -104,7 +104,7 @@ data science.</h1>
 ## Quantitative Research
 
 <p align="center">
-<img class=".sentanalysis" src="images/datascience_flowchart1.png" alt="flowchart1">
+<img class="sentanalysis" src="images/flowchart1.png" alt="flowchart1">
 </p>
 
 ---
@@ -112,7 +112,7 @@ data science.</h1>
 ## Data Science Workflow
 
 <p align="center">
-<img class=".sentanalysis" src="images/datascience_flowchart2.png" alt="flowchart1">
+<img class="sentanalysis" src="images/flowchart2.png" alt="flowchart1">
 </p>
 
 --- .transition
